@@ -748,7 +748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000045776, y: -106}
+  m_AnchoredPosition: {x: 0.000045776, y: -0.0000076293945}
   m_SizeDelta: {x: 460.5, y: 52.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88913780
@@ -7956,6 +7956,8 @@ MonoBehaviour:
   shotTriAOE: {fileID: 5035245819000217371, guid: d2db6d8aa7879e0428371519497dddb4,
     type: 3}
   shotTri: {fileID: 3751351678840606543, guid: c33ed1e4efa4ae44ab8532fc2e6691cb, type: 3}
+  shotTriFlip: {fileID: 7876641189287431527, guid: b14d3674bae768a4d93d0390fe7c34cd,
+    type: 3}
   shield: {fileID: 6610022613688850496, guid: 5e99133f1e4a147448380463ca87d60b, type: 3}
   heal: {fileID: 1592469972}
   shotSpawn: {fileID: 1264158307}
@@ -35363,7 +35365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2026428820
 RectTransform:
   m_ObjectHideFlags: 0
